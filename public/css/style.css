@@ -1,0 +1,408 @@
+body{
+	
+	background-image: url("../storage/img/background.png");
+	background-position:left top;
+	background-size: auto;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	color: #fff;
+}
+
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+      height: 160px !important;
+    width: 260px !important;
+}
+a.trazi.desna-strana-auta{
+  color:#fff;
+}
+.bgcolors {
+  background-color: #2ecc71;
+}
+.texture{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.spec{
+  margin-top: 5px;
+}
+.auta{
+  text-decoration: none;
+  color:#fff;
+}
+.auta:hover, .auta:active{
+  text-decoration: none;
+  color: #fff;
+}
+.desno{
+  padding: 15px;
+}
+h3.title{
+	text-align: center;
+	padding: 5px;
+	background-color: #b12a2a;
+}
+.kola{
+  color: #fff;
+}
+.kola:hover {
+  color: #fff;
+}
+.kola:hover > .box2{
+  background-color:#131212;
+}
+.desna-strana-auta{
+  margin-top: 30px;
+}
+.kontakt{
+  margin-bottom:30px;
+  margin-left: 20px;
+  width: 60%;
+}
+.kon{
+  margin-left:20px;
+}
+.poruka{
+  width: 90%;
+}
+.form-group textarea{
+  margin:0px 20px;
+  width: 95%;
+}
+.dropdown-menu{
+  background-color: #000 !important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  background-color: #b12a2a !important;
+  color:#fff;
+}
+.input-group-addon{
+  background-color: #333;
+  color: #fff;
+}
+.trazi{
+  background-color: #424141;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.trazi:hover{
+  background-color: #605d5d;
+}
+.logo{
+	padding-left: 20px;
+	width: 200px;
+	height: 82px;	
+}
+.male-slike{
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 0px;
+	border: none;
+}
+.male-slike:hover{
+	background-color:#131212;
+	cursor:pointer;
+}
+.auto-title{
+  color: orange;
+}
+.crveni{
+  background-color: #b12a2a;
+  font-size: 18px;
+  margin:0 20px 20px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+.crveni:hover{
+  color: #fff;
+  background-color: #333;
+}
+.desna-linija{
+  border-right: 0.3px solid grey;
+}
+.osobine{
+  padding:0px 4px;
+  margin:2px;
+  border-radius: 2px;
+  float: left;
+  background-color: grey;
+}
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+  }
+
+  .panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #fff;
+    background-color: #101010;
+    border-color: #EEEEEE;
+  }
+.panel-body{
+  background-color: #101010;
+}
+  .panel-title {
+    font-size: 14px;
+  }
+
+  .panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  .more-less {
+    float: right;
+    color: #fff;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+  }
+#exTab1 .tab-content {
+  color : white;
+  background-color: #101010;
+  padding : 5px 15px;
+}
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+#exTab1 .nav-pills > li > a{
+  background-color:#101010;
+  color: grey;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  color: #fff !important;
+}
+.box{
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.box2{
+  margin-top: 20px;
+ padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.box3{
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.thumbnail .caption {
+	color: #fff;
+}
+.thumbnail .caption .cijena{
+	color: orange;
+}
+button.detaljnije{
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	text-transform: uppercase;
+}
+.male-slike:hover .detaljnije{
+	background-color: #fff;
+	color: #000;
+	font-weight: 600;
+}
+
+
+.form-control{
+	background-color: #333;
+	color:#fff;
+}
+.dropdown-menu{
+	background-color: #424141;
+}
+.dropdown-menu>li{
+	border-bottom: 1px solid #fff;
+}
+.dropdown-menu>li:last-child{
+	border:none;
+}
+.dropdown-menu>li>a {
+	color: #fff;
+}
+option{
+  background-color: #424141;
+}
+select:focus > option:hover { 
+    background: #000 !important;
+}
+
+.search-title{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-control .dugme:hover{
+  color: red !important;
+}
+
+.box1{
+	margin-top: 20px;
+	background-color: transparent;
+}
+.foot-bot{
+	text-align: center; 
+	border-top: 1px solid grey; 
+	padding-bottom: 10px;
+}
+.ribbon1 {
+   position: absolute;
+   right: 10px; top:-5px;
+   z-index: 1;
+   overflow: hidden;
+   width: 75px; height:75px; 
+   text-align: right;
+}
+.ribbon1 span {
+   font-size: 13px;
+   color: #fff; 
+   text-transform: uppercase; 
+   text-align: center;
+   font-weight: bold; line-height: 20px;
+   transform: rotate(45deg);
+   width: 100px; display: block;
+   background: #79A70A;
+   background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+   box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+   position: absolute;
+   top: 19px; right: -21px;
+}
+.ribbon1 span::before {
+   content: '';
+   position: absolute; 
+   left: 0px; top: 100%;
+   z-index: -1;
+   border-left: 3px solid #79A70A;
+   border-right: 3px solid transparent;
+   border-bottom: 3px solid transparent;
+   border-top: 3px solid #79A70A;
+}
+.ribbon1 span::after {
+   content: '';
+   position: absolute; 
+   right: 0%; top: 100%;
+   z-index: -1;
+   border-right: 3px solid #79A70A;
+   border-left: 3px solid transparent;
+   border-bottom: 3px solid transparent;
+   border-top: 3px solid #79A70A;
+}
+.ribbon {
+   position: absolute;
+   right: 10px; top: 15px;
+   z-index: 1;
+   overflow: hidden;
+   width: 75px; height:75px; 
+   text-align: right;
+}
+.ribbon span {
+   font-size: 13px;
+   color: #fff; 
+   text-transform: uppercase; 
+   text-align: center;
+   font-weight: bold; line-height: 20px;
+   transform: rotate(45deg);
+   width: 100px; display: block;
+   background: #79A70A;
+   background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+   box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+   position: absolute;
+   top: 19px; right: -21px;
+}
+.ribbon span::before {
+   content: '';
+   position: absolute; 
+   left: 0px; top: 100%;
+   z-index: -1;
+   border-left: 3px solid #79A70A;
+   border-right: 3px solid transparent;
+   border-bottom: 3px solid transparent;
+   border-top: 3px solid #79A70A;
+}
+.ribbon span::after {
+   content: '';
+   position: absolute; 
+   right: 0%; top: 100%;
+   z-index: -1;
+   border-right: 3px solid #79A70A;
+   border-left: 3px solid transparent;
+   border-bottom: 3px solid transparent;
+   border-top: 3px solid #79A70A;
+}
+.oznaka{
+	position: relative;
+}
+
+.Novo span {background: linear-gradient(#F70505 0%, #8F0808 100%);}
+.Novo span::before {border-left-color: #8F0808; border-top-color: #8F0808;}
+.Novo span::after {border-right-color: #8F0808; border-top-color: #8F0808;}
+
+.Polovno span {background: linear-gradient(#2989d8 0%, #1e5799 100%);}
+.Polovno span::before {border-left-color: #1e5799; border-top-color: #1e5799;}
+.Polovno span::after {border-right-color: #1e5799; border-top-color: #1e5799;}
+
+.Osteceno span {background: linear-gradient(#2dce72 0%, #087a39 100%);}
+.Osteceno span::before {border-left-color: #087a39; border-top-color: #087a39;}
+.Osteceno span::after {border-right-color: #087a39; border-top-color: #087a39;}
+
+
+.navigacija{
+	padding: 0px;
+	background-color: transparent;
+}
+.navigacija ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navigacija li {
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+.mix{
+	padding: 0px;
+	margin: 0px;
+
+}
+.navigacija a {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 4px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.navigacija a:hover {
+  background-color: #b12a2a;
+}
+ 
+.navigacija a.active {
+  background-color: #b12a2a;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .navigacija li {
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .navigacija li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  
+}
